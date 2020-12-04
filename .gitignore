@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Assignment5_AI/Temp
+/Assignment5_AI/obj
+/Assignment5_AI/Assembly-CSharp-Editor.csproj
+/Assignment5_AI/Assembly-CSharp.csproj
+/Assignment5_AI/Assignment5_AI.sln
+/Assignment5_AI/Library
+/Assignment5_AI/Logs
+/Assignment5_AI/.vs/Assignment5_AI/v16
+/.vs

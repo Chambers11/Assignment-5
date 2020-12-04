@@ -1,0 +1,35 @@
+title: Dan.Start
+tags: 
+colorID: 0
+position: 850,43
+---
+<<if visited ("Dan.Start") >>
+Hey you are back
+<<else>> 
+Hi
+<<endif>> 
+[[Hows your day?|Dan.day]]
+===
+title: Dan.day
+tags: 
+colorID: 0
+position: 852,300
+---
+My day is fine how about you?
+[[ Good: |Dan.PlayerGood]]
+[[ Bad: |Dan.PlayerBad]]
+===
+title: Dan.PlayerGood
+tags: 
+colorID: 0
+position: 543,305
+---
+Thats Great
+===
+title: Dan.PlayerBad
+tags: 
+colorID: 0
+position: 1151,296
+---
+Thats bad
+===
