@@ -1,0 +1,39 @@
+fileFormatVersion: 2
+guid: be853b70b08fa5844a19e470318c47ab
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-GB
+  stringIDs:
+  - Bouncer-Bouncer-0
+  - Bouncer-Bouncer-1
+  - Bouncer-Bouncer-2
+  - Bouncer-Bouncer-3
+  - Bouncer-Bouncer-4
+  - Bouncer-Bouncer-5
+  - Bouncer-Bouncer-6
+  - Bouncer-Bouncer-7
+  - Bouncer-Bouncer-8
+  - Bouncer-Bouncer.No-9
+  - Bouncer-Bouncer.No-10
+  - Bouncer-Bouncer.Scram-11
+  - Bouncer-Bouncer.Scram-12
+  - Bouncer-Bouncer.Scram-13
+  - Bouncer-Bouncer.Password-14
+  - Bouncer-Bouncer.Password-15
+  - Bouncer-Bouncer.Password-16
+  - Bouncer-Bouncer.Password-17
+  - Bouncer-Answer.Correct-18
+  - Bouncer-Answer.Correct-19
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: "Error on line 35 at position 7:\nno viable alternative
+    at input '<<else'\r\n    <<else>> \r\n      ^^^^"
+  baseLanguage: {fileID: 7128917941130120860, guid: be853b70b08fa5844a19e470318c47ab,
+    type: 3}
+  localizations: []

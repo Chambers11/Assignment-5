@@ -205,23 +205,23 @@ PrefabInstance:
     - target: {fileID: 2523176109351772414, guid: fe80467ec35000c40b7dd91b75f7f50d,
         type: 3}
       propertyPath: talkToNode
-      value: Dan.Start
+      value: Bouncer
       objectReference: {fileID: 0}
     - target: {fileID: 2523176109351772414, guid: fe80467ec35000c40b7dd91b75f7f50d,
         type: 3}
       propertyPath: scriptToLoad
       value: 
-      objectReference: {fileID: 2480198943629176163, guid: 332b2b44cdc06a84aa4891c141f2538f,
+      objectReference: {fileID: 2480198943629176163, guid: be853b70b08fa5844a19e470318c47ab,
         type: 3}
     - target: {fileID: 2523176109351772414, guid: fe80467ec35000c40b7dd91b75f7f50d,
         type: 3}
       propertyPath: characterName
-      value: Dan
+      value: Bouncer
       objectReference: {fileID: 0}
     - target: {fileID: 2682816490832769733, guid: fe80467ec35000c40b7dd91b75f7f50d,
         type: 3}
       propertyPath: m_Name
-      value: Dan
+      value: Bouncer
       objectReference: {fileID: 0}
     - target: {fileID: 5544795195295726864, guid: fe80467ec35000c40b7dd91b75f7f50d,
         type: 3}
