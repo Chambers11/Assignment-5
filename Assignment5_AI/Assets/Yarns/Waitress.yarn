@@ -1,0 +1,39 @@
+title: Waitress
+tags: 
+colorID: 0
+position: 795,-330
+---
+<<if visited ("Waitress") is true>> 
+Waitress: Loose enough yet? 
+[[ No |Player.Pleasure]]
+<< else>> 
+Waitress : Hey there handsome
+ Player: where am i ?
+ Waitress: New in town I see...
+ Player: You could say that.
+ Waitress: Oooo mysterious, i like that...
+ Waitress: You are at the NPC Saloon/Bar
+ Player: The where? 
+ Waitress: The Non-Playable-Characters Bar...
+ Waitress: It's where us "Non essentials" go... 
+ Waitress: You know till the player turns on the game
+ Player: Hmm interesting 
+ Waitress: So what bring you here ?
+[[ I'm here for business  |Player.Business]] 
+[[ I'm here for pleasure |Player.Pleasure]]
+<< endif>>
+===
+title: Player.Business
+tags: 
+colorID: 0
+position: 1016,-58
+---
+Waitress:Boring, perhaps a drink or two at the bar will fix that.
+===
+title: Player.Pleasure
+tags: 
+colorID: 0
+position: 609,-62
+---
+Waitress:Grab a drink at the bar and come find me later...
+===

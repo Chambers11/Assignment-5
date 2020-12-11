@@ -1,0 +1,36 @@
+fileFormatVersion: 2
+guid: 5a07c867c0bea6243a523adceef41032
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-GB
+  stringIDs:
+  - Waitress-Waitress-0
+  - Waitress-Waitress-1
+  - Waitress-Waitress-2
+  - Waitress-Waitress-3
+  - Waitress-Waitress-4
+  - Waitress-Waitress-5
+  - Waitress-Waitress-6
+  - Waitress-Waitress-7
+  - Waitress-Waitress-8
+  - Waitress-Waitress-9
+  - Waitress-Waitress-10
+  - Waitress-Waitress-11
+  - Waitress-Waitress-12
+  - Waitress-Waitress-13
+  - Waitress-Waitress-14
+  - Waitress-Waitress-15
+  - Waitress-Player.Business-16
+  - Waitress-Player.Pleasure-17
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 5a07c867c0bea6243a523adceef41032,
+    type: 3}
+  localizations: []

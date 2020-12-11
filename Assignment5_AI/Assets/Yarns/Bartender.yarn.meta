@@ -1,0 +1,38 @@
+fileFormatVersion: 2
+guid: 5d0983007819cca409c3a810174ec18c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-GB
+  stringIDs:
+  - Bartender-Bartender-0
+  - Bartender-Bartender-1
+  - Bartender-Bartender-2
+  - Bartender-Bartender-3
+  - Bartender-Bartender-4
+  - Bartender-Bartender-5
+  - Bartender-Player.Silent-6
+  - Bartender-Player.Silent-7
+  - Bartender-Player.Silent-8
+  - Bartender-Player.Silent-9
+  - Bartender-Player.Good-10
+  - Bartender-Player.Good-11
+  - Bartender-Player.Good-12
+  - Bartender-Player.Good-13
+  - Bartender-Player.Good-14
+  - Bartender-Player.Good-15
+  - Bartender-Player.Good-16
+  - Bartender-Player.Good-17
+  - Bartender-Player.Dismiss-18
+  - Bartender-Player.Dismiss-19
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 5d0983007819cca409c3a810174ec18c,
+    type: 3}
+  localizations: []

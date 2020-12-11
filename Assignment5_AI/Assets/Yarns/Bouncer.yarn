@@ -1,7 +1,7 @@
 title: Bouncer
 tags: 
 colorID: 0
-position: 927,41
+position: 886,-280
 ---
 <<if visited ("Bouncer") is false>>
     Bouncer: You ain't here to cause trouble now is you? 
@@ -21,7 +21,7 @@ position: 927,41
 title: Bouncer.Scram
 tags: 
 colorID: 0
-position: 663,289
+position: 526,-105
 ---
 <<if visited ("Bouncer.Password") is true >>
 Bouncer: Wrong!! Now SCRAM!!!
@@ -33,28 +33,26 @@ Bouncer: Scram!!!
 ===
 title: Bouncer.Password
 tags: 
-colorID: 0
-position: 935,295
+colorID: 4
+position: 896,-25
 ---
 [[ Sun: |Bouncer.Scram]] 
 [[ Moon: |Bouncer.Scram]]
 [[ Asteroids: |Bouncer.Scram]]
-<< if visited ("Riddler") is true>>
 [[ Stars: |Answer.Correct]]
-<< endif>>
 ===
 title: Answer.Correct
 tags: 
 colorID: 0
-position: 942,551
+position: 885,225
 ---
 Bouncer: Lucky guess...
-Bouncer: Enter through the portal.
+Bouncer: Get in...
 ===
 title: Bouncer.No
 tags: 
 colorID: 0
-position: 1220,49
+position: 1316,-196
 ---
 Bouncer: Well then, what is the password?
 [[ Password Choices: |Bouncer.Password]]

@@ -10,7 +10,8 @@ public class NPC3D : MonoBehaviour
     public YarnProgram scriptToLoad;
     DialogueRunner dialogueRunner; //refernce to the dialogue control
     private GameObject dialogueCanavas; //refernce to the canvas
-    public Vector3 PostionSpeachBubble = new Vector3(0f, 0.0f, -0.6f);
+    public 
+        Vector3 PostionSpeachBubble = new Vector3(0f, 0.0f, -0.6f);
 
 
     /// </summary> 

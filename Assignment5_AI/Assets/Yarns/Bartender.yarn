@@ -1,0 +1,98 @@
+title: Bartender
+tags: 
+colorID: 0
+position: 463,-591
+---
+<<if visited ("Bartender") is true>> 
+Bartender: You back for that drink? 
+[[ No: |Player.Good]]
+<<else>> 
+Bartender: Well how you doing ?
+[[ Remain silent: |Player.Silent]]
+[[ Good |Player.Good]]
+<< endif>>
+===
+title: Player.Silent
+tags: 
+colorID: 0
+position: 88,-288
+---
+Bartender:Hmm not very chatty are you? 
+[[ Remain silent: |Player.Silent]]
+Bartender: What can i do you for ?
+[[ Remain Silent |Player.Dismiss]]
+===
+title: Player.Good
+tags: 
+colorID: 0
+position: 340,-294
+---
+Bartender: Not a very chatty one now are you ?
+Bartender: Do you at have a name?
+[[ Skip |Player.Skip]]
+[[ None of your business: |Player.Dismiss]]
+===
+title: Player.Dismiss
+tags: 
+colorID: 0
+position: 289,-15
+---
+Bartender: How about you come back when you ready for that drink...
+[[ Grunt: |Player.Dismiss]]
+===
+title: Player.Skip
+tags: 
+colorID: 0
+position: 721,-595
+---
+Bartender: Well then Skip what can i get you?
+[[ Some peace!! : |Player.Dismiss]]
+[[ I'm looking for someone |Player.Looking]]
+===
+title: Player.Looking
+tags: 
+colorID: 0
+position: 746,-352
+---
+Bartender: Oh here on a date i see...
+Bartender: are you not a little old for a place like this?
+[[ Who you calling old? |Player.Angry]]
+[[ I'm not here on a date...I'm... |Player.Mystery]] 
+===
+title: Player.Angry
+tags: 
+colorID: 1
+position: 752,-129
+---
+Bartender: I didn't mean it like that...
+[[ I've heard enough now leave me! |Player.Dismiss]]
+===
+title: Player.Mystery
+tags: 
+colorID: 0
+position: 1031,-338
+---
+Player:...looking for my son. 
+Player:He has been missing for 3 days now and...
+Bartender: Go on Skip...
+[[ and all i have is this... |Player.Letter]]
+[[ I've said too much.. |Player.Leave]] 
+===
+title: Player.Letter
+tags: 
+colorID: 0
+position: 1444,-357
+---
+<< if visited ("OldHouse") is true>> 
+Bartender: This handwriting looks familiar
+<< else>> 
+Bartender: Sorry Skip can't help you there. 
+<< endif>>
+===
+title: Player.Leave
+tags: 
+colorID: 0
+position: 1038,2
+---
+[[ I must leave |Player.Dismiss]]
+===
